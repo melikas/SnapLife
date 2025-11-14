@@ -1,0 +1,4 @@
+pandas
+numpy
+python-bson
+# If you use Git LFS for large CSVs: git-lfs

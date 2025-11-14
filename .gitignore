@@ -1,0 +1,12 @@
+# Ignore raw BSON and other large raw exports by default
+*.bson
+*.bson.metadata.json
+
+# Allow processed sleepdata CSVs we intentionally add
+!sleepdata/
+sleepdata/*.tmp
+
+# Python artifacts
+__pycache__/
+.pytest_cache/
+*.pyc
